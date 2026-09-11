@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pozashumom.com/sitemap.xml
