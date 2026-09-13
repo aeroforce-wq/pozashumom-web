@@ -1,9 +1,15 @@
 name: MEDX Telegram Publisher
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'telegram-bot/**'
+      - '.github/workflows/telegram-publisher.yml'
 
 permissions:
   contents: write
