@@ -1,0 +1,39 @@
+name: MEDX Telegram Publisher
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: medx-telegram-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish due Telegram items
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: node telegram-bot/publish.mjs
+
+      - name: Persist publication status
+        run: |
+          if git diff --quiet -- telegram-bot/queue.json; then
+            echo "No queue changes"
+            exit 0
+          fi
+          git config user.name "MEDX Telegram Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add telegram-bot/queue.json
+          git commit -m "MEDX: record Telegram publication status"
+          git push
