@@ -10,15 +10,51 @@ const path = 'telegram-bot/queue.json';
 const data = JSON.parse(fs.readFileSync(path, 'utf8'));
 const now = Date.now();
 
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const RETRYABLE_NETWORK_CODES = new Set(['ETIMEDOUT', 'ENETUNREACH', 'ECONNRESET', 'ECONNREFUSED', 'EAI_AGAIN']);
+
+function collectErrorCodes(error, out = new Set()) {
+  if (!error) return out;
+  if (error.code) out.add(error.code);
+  if (error.cause) collectErrorCodes(error.cause, out);
+  if (Array.isArray(error.errors)) {
+    for (const nested of error.errors) collectErrorCodes(nested, out);
+  }
+  return out;
+}
+
+function isRetryableNetworkError(error) {
+  const codes = collectErrorCodes(error);
+  return [...codes].some(code => RETRYABLE_NETWORK_CODES.has(code));
+}
+
 async function telegram(method, payload) {
-  const res = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
-    method: 'POST',
-    headers: {'content-type': 'application/json'},
-    body: JSON.stringify(payload)
-  });
-  const body = await res.json();
-  if (!body.ok) throw new Error(`${method}: ${JSON.stringify(body)}`);
-  return body.result;
+  const delays = [3000, 7000, 15000];
+
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    try {
+      const res = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
+        method: 'POST',
+        headers: {'content-type': 'application/json'},
+        body: JSON.stringify(payload)
+      });
+
+      const body = await res.json();
+      if (!body.ok) throw new Error(`${method}: ${JSON.stringify(body)}`);
+      return body.result;
+    } catch (error) {
+      const retryable = isRetryableNetworkError(error);
+      const finalAttempt = attempt === 3;
+
+      if (!retryable || finalAttempt) throw error;
+
+      const waitMs = delays[attempt];
+      console.warn(
+        `Telegram network error on ${method}; retrying in ${waitMs} ms (attempt ${attempt + 2}/4)`
+      );
+      await sleep(waitMs);
+    }
+  }
 }
 
 let changed = false;
