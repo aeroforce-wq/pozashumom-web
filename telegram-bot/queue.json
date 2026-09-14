@@ -50,7 +50,8 @@
     {
       "id": "MEDX-TG-20260914-001",
       "scheduled_at": "2026-09-14T10:45:00+03:00",
-      "status": "pending",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-049…053 serial-first content reset",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -59,7 +60,8 @@
     {
       "id": "MEDX-TG-20260914-002",
       "scheduled_at": "2026-09-14T18:30:00+03:00",
-      "status": "pending",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-049…053 serial-first content reset",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -68,7 +70,8 @@
     {
       "id": "MEDX-TG-20260915-001",
       "scheduled_at": "2026-09-15T10:45:00+03:00",
-      "status": "pending",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-049…053 serial-first content reset",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -77,7 +80,8 @@
     {
       "id": "MEDX-TG-20260915-003",
       "scheduled_at": "2026-09-15T12:30:00+03:00",
-      "status": "pending",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-049…053 serial-first content reset",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/8286f04b-9389-49de-9938-f8bd111a883f.png",
       "parse_mode": "HTML",
@@ -86,7 +90,8 @@
     {
       "id": "MEDX-TG-20260915-002",
       "scheduled_at": "2026-09-15T18:30:00+03:00",
-      "status": "pending",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-049…053 serial-first content reset",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
