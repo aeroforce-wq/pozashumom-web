@@ -115,14 +115,16 @@
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/26b3d15c-b4f2-4d8b-883c-1c4b6ab63612.png",
       "parse_mode": "HTML",
-      "text": "<b>РАНКОВА РЕДАКЦІЯ · 15 ВЕРЕСНЯ</b>\n\nСьогодні ми не дублюємо одну новину по всіх каналах. Ось що де виходить:\n\n<b>Instagram → «Операція Карфаген · Серія 2»</b>\nКравченко vs НАБУ. Чекаємо не ще одну заяву, а процесуальний результат.\n<a href=\"https://www.instagram.com/pozashumom/\">Відкрити Instagram</a>\n\n<b>Facebook → ПДВ 21–21,5% заради страхування бізнесу?</b>\nЩо дасть фонд, скільки може зібрати держава і хто фактично заплатить.\n<a href=\"https://www.facebook.com/share/1KEzadqJP9/\">Відкрити Facebook</a>\n\n<b>Threads → Безпека ШІ чи технологічна блокада?</b>\nAnthropic просить пригальмувати, Global Times називає це логікою холодної війни. Тут — дискусія.\n<a href=\"https://www.threads.com/@pozashumom\">Відкрити Threads</a>\n\n<b>TikTok → Ормуз: основний шлях буксує, запасний теж</b>\nЯк проблеми з маршрутом нафти переходять із бареля у фрахт, інфляцію й твій чек.\n<a href=\"https://www.tiktok.com/@pozashumommedia\">Відкрити TikTok</a>\n\n<b>Telegram-only:</b>\n• тут збираємо джерела й live updates;\n• якщо по будь-якій історії з’явиться новий документ або результат — апдейт буде тут першим;\n• YouTube не забиваємо копіями — готуємо окремий великий розбір, коли тема реально тягне.\n\nПоза Шумом. Усе важливе — в одному newsroom."
+      "text": "<b>РАНКОВА РЕДАКЦІЯ · 15 ВЕРЕСНЯ</b>\n\nЗавтра не дублюємо одну й ту саму новину на всі платформи. Матриця розведена по темах:\n\n<b>Instagram → «Операція Карфаген · Серія 2»</b>\nКравченко vs НАБУ. Чекаємо не ще одну заяву, а процесуальний результат.\n<a href=\"https://www.instagram.com/pozashumom/\">Відкрити Instagram</a>\n\n<b>Facebook → ПДВ 21–21,5% і страхування бізнесу</b>\nЩо дасть фонд, скільки може зібрати держава і хто фактично заплатить.\n<a href=\"https://www.facebook.com/share/1KEzadqJP9/\">Відкрити Facebook</a>\n\n<b>Threads → безпека ШІ чи технологічна блокада?</b>\nAnthropic просить пригальмувати, Global Times називає це логікою холодної війни.\n<a href=\"https://www.threads.com/@pozashumom\">Відкрити Threads</a>\n\n<b>TikTok → Ормуз і нафта</b>\nЯк проблеми з маршрутом нафти переходять із бареля у фрахт, інфляцію й твій чек.\n<a href=\"https://www.tiktok.com/@pozashumommedia\">Відкрити TikTok</a>\n\n<b>YouTube → ШІ-агент, який уже доходить до платежу</b>\nОкремий Short, не копія ранкових матеріалів.\n\n<b>Telegram-only:</b>\n• джерела, receipts і live updates;\n• новий документ/рішення/результат — апдейт тут першим;\n• жодного механічного кроспостингу.\n\nПоза Шумом. Усе важливе — в одному newsroom."
     }
   ],
   "manual_recovery_requested_at": "2026-09-14T21:43:00+03:00",
   "manual_recovery_reason": "No scheduled GitHub Actions runs after 16:40 Europe/Kyiv; publish overdue Telegram-unique oil update and block duplicate Carthage item.",
   "telegram_recovery": {
-    "status": "manual_push_recovery_started",
+    "status": "recovered",
     "root_cause": "GitHub Actions cron stopped producing scheduled runs after 16:40 Europe/Kyiv; publisher was not invoked",
-    "requested_at": "2026-09-14T21:43:00+03:00"
+    "recovered_at": "2026-09-14T21:44:29+03:00",
+    "recovery_message_id": 8,
+    "recovery_commit": "9b75a70dd359c7f0dfeadd32aed0133518a11a05"
   }
 }
