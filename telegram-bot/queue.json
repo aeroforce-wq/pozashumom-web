@@ -60,8 +60,7 @@
     {
       "id": "MEDX-TG-20260914-002",
       "scheduled_at": "2026-09-14T18:30:00+03:00",
-      "status": "hold",
-      "hold_reason": "MEDX-DEC-049…053 serial-first content reset",
+      "status": "pending",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -100,11 +99,12 @@
     {
       "id": "MEDX-TG-20260914-003",
       "scheduled_at": "2026-09-14T18:30:00+03:00",
-      "status": "pending",
+      "status": "hold",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/411f8b3c-0a3e-4ad6-92ed-0930d5779267.png",
       "parse_mode": "HTML",
-      "text": "<b>ОПЕРАЦІЯ «КАРФАГЕН» · СЕРІЯ 1</b>\n\n<b>Кол-центри платили за тишу?</b>\n\nЗа версією НАБУ і САП, у схемі люди з Офісу Генпрокурора могли систематично отримувати гроші за «неперешкоджання» роботі шахрайських кол-центрів.\n\nУ матеріалах слідства — 5 підозрюваних і десятки мільйонів гривень у різних категоріях активів.\n\nОкремо «Українська правда» з посиланням на джерела пише про приблизно $7 000 на місяць з одного кол-центру. <b>Це не встановлений слідством тариф.</b>\n\nРуслан Кравченко не є підозрюваним у цій справі; ОГП заперечував його прямий зв’язок зі схемою.\n\n<b>ЩО ДАЛІ?</b>\nГолосування в Раді та нові процесуальні рішення. Ми не закриваємо цю історію одним постом — продовження буде після підтвердженого розвитку.\n\nПоза Шумом. Справа триває."
+      "text": "<b>ОПЕРАЦІЯ «КАРФАГЕН» · СЕРІЯ 1</b>\n\n<b>Кол-центри платили за тишу?</b>\n\nЗа версією НАБУ і САП, у схемі люди з Офісу Генпрокурора могли систематично отримувати гроші за «неперешкоджання» роботі шахрайських кол-центрів.\n\nУ матеріалах слідства — 5 підозрюваних і десятки мільйонів гривень у різних категоріях активів.\n\nОкремо «Українська правда» з посиланням на джерела пише про приблизно $7 000 на місяць з одного кол-центру. <b>Це не встановлений слідством тариф.</b>\n\nРуслан Кравченко не є підозрюваним у цій справі; ОГП заперечував його прямий зв’язок зі схемою.\n\n<b>ЩО ДАЛІ?</b>\nГолосування в Раді та нові процесуальні рішення. Ми не закриваємо цю історію одним постом — продовження буде після підтвердженого розвитку.\n\nПоза Шумом. Справа триває.",
+      "hold_reason": "MEDX-DEC-048 + platform-unique gate: overdue Carthage duplicate/saturation blocked"
     },
     {
       "id": "MEDX-TG-20260915-004",
@@ -116,12 +116,11 @@
       "text": "<b>РАНКОВА РЕДАКЦІЯ · 15 ВЕРЕСНЯ</b>\n\nСьогодні ми не дублюємо одну новину по всіх каналах. Ось що де виходить:\n\n<b>Instagram → «Операція Карфаген · Серія 2»</b>\nКравченко vs НАБУ. Чекаємо не ще одну заяву, а процесуальний результат.\n<a href=\"https://www.instagram.com/pozashumom/\">Відкрити Instagram</a>\n\n<b>Facebook → ПДВ 21–21,5% заради страхування бізнесу?</b>\nЩо дасть фонд, скільки може зібрати держава і хто фактично заплатить.\n<a href=\"https://www.facebook.com/share/1KEzadqJP9/\">Відкрити Facebook</a>\n\n<b>Threads → Безпека ШІ чи технологічна блокада?</b>\nAnthropic просить пригальмувати, Global Times називає це логікою холодної війни. Тут — дискусія.\n<a href=\"https://www.threads.com/@pozashumom\">Відкрити Threads</a>\n\n<b>TikTok → Ормуз: основний шлях буксує, запасний теж</b>\nЯк проблеми з маршрутом нафти переходять із бареля у фрахт, інфляцію й твій чек.\n<a href=\"https://www.tiktok.com/@pozashumommedia\">Відкрити TikTok</a>\n\n<b>Telegram-only:</b>\n• тут збираємо джерела й live updates;\n• якщо по будь-якій історії з’явиться новий документ або результат — апдейт буде тут першим;\n• YouTube не забиваємо копіями — готуємо окремий великий розбір, коли тема реально тягне.\n\nПоза Шумом. Усе важливе — в одному newsroom."
     }
   ],
-  "manual_recovery_requested_at": "2026-09-13T19:26:00+03:00",
-  "manual_recovery_reason": "Scheduled GitHub Actions runs stopped appearing; trigger push-based recovery for due Telegram queue items.",
+  "manual_recovery_requested_at": "2026-09-14T21:43:00+03:00",
+  "manual_recovery_reason": "No scheduled GitHub Actions runs after 16:40 Europe/Kyiv; publish overdue Telegram-unique oil update and block duplicate Carthage item.",
   "telegram_recovery": {
-    "status": "retry_hardened",
-    "root_cause": "Transient GitHub runner network timeout to api.telegram.org",
-    "recovered_at": "2026-09-13T19:26:54+03:00",
-    "recovery_message_id": 6
+    "status": "manual_push_recovery_started",
+    "root_cause": "GitHub Actions cron stopped producing scheduled runs after 16:40 Europe/Kyiv; publisher was not invoked",
+    "requested_at": "2026-09-14T21:43:00+03:00"
   }
 }
