@@ -111,11 +111,72 @@
     {
       "id": "MEDX-TG-20260915-004",
       "scheduled_at": "2026-09-15T10:45:00+03:00",
-      "status": "pending",
+      "status": "hold",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/26b3d15c-b4f2-4d8b-883c-1c4b6ab63612.png",
       "parse_mode": "HTML",
-      "text": "<b>РАНКОВА РЕДАКЦІЯ · 15 ВЕРЕСНЯ</b>\n\nЗавтра не дублюємо одну й ту саму новину на всі платформи. Матриця розведена по темах:\n\n<b>Instagram → «Операція Карфаген · Серія 2»</b>\nКравченко vs НАБУ. Чекаємо не ще одну заяву, а процесуальний результат.\n<a href=\"https://www.instagram.com/pozashumom/\">Відкрити Instagram</a>\n\n<b>Facebook → ПДВ 21–21,5% і страхування бізнесу</b>\nЩо дасть фонд, скільки може зібрати держава і хто фактично заплатить.\n<a href=\"https://www.facebook.com/share/1KEzadqJP9/\">Відкрити Facebook</a>\n\n<b>Threads → безпека ШІ чи технологічна блокада?</b>\nAnthropic просить пригальмувати, Global Times називає це логікою холодної війни.\n<a href=\"https://www.threads.com/@pozashumom\">Відкрити Threads</a>\n\n<b>TikTok → Ормуз і нафта</b>\nЯк проблеми з маршрутом нафти переходять із бареля у фрахт, інфляцію й твій чек.\n<a href=\"https://www.tiktok.com/@pozashumommedia\">Відкрити TikTok</a>\n\n<b>YouTube → ШІ-агент, який уже доходить до платежу</b>\nОкремий Short, не копія ранкових матеріалів.\n\n<b>Telegram-only:</b>\n• джерела, receipts і live updates;\n• новий документ/рішення/результат — апдейт тут першим;\n• жодного механічного кроспостингу.\n\nПоза Шумом. Усе важливе — в одному newsroom."
+      "text": "<b>РАНКОВА РЕДАКЦІЯ · 15 ВЕРЕСНЯ</b>\n\nЗавтра не дублюємо одну й ту саму новину на всі платформи. Матриця розведена по темах:\n\n<b>Instagram → «Операція Карфаген · Серія 2»</b>\nКравченко vs НАБУ. Чекаємо не ще одну заяву, а процесуальний результат.\n<a href=\"https://www.instagram.com/pozashumom/\">Відкрити Instagram</a>\n\n<b>Facebook → ПДВ 21–21,5% і страхування бізнесу</b>\nЩо дасть фонд, скільки може зібрати держава і хто фактично заплатить.\n<a href=\"https://www.facebook.com/share/1KEzadqJP9/\">Відкрити Facebook</a>\n\n<b>Threads → безпека ШІ чи технологічна блокада?</b>\nAnthropic просить пригальмувати, Global Times називає це логікою холодної війни.\n<a href=\"https://www.threads.com/@pozashumom\">Відкрити Threads</a>\n\n<b>TikTok → Ормуз і нафта</b>\nЯк проблеми з маршрутом нафти переходять із бареля у фрахт, інфляцію й твій чек.\n<a href=\"https://www.tiktok.com/@pozashumommedia\">Відкрити TikTok</a>\n\n<b>YouTube → ШІ-агент, який уже доходить до платежу</b>\nОкремий Short, не копія ранкових матеріалів.\n\n<b>Telegram-only:</b>\n• джерела, receipts і live updates;\n• новий документ/рішення/результат — апдейт тут першим;\n• жодного механічного кроспостингу.\n\nПоза Шумом. Усе важливе — в одному newsroom.",
+      "hold_reason": "ЗАМІНЕНО MEDX-DEC-059/060: замість одного ранкового дайджесту створюється окрема Telegram-пара для кожної запланованої платформної публікації; потрібне погодження Власника."
+    },
+    {
+      "id": "MEDX-TG-20260915-005",
+      "scheduled_at": "2026-09-15T09:20:00+03:00",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-054/062 — ГОТОВО ДО ПЕРЕГЛЯДУ ВЛАСНИКОМ / ПУБЛІКАЦІЮ НЕ ПОГОДЖЕНО",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
+      "parse_mode": "HTML",
+      "text": "<b>Instagram Stories → Операція «Карфаген» · Серія 2</b>\n\nРанковий Story-вхід у справу: Кравченко vs НАБУ. Це тизер до повного Instagram-пакета, не окрема нова «серія» без тригера.\n\n<b>ЩО ВІДСТЕЖУЄМО?</b>\nГолосування та офіційне процесуальне рішення.\n\nInstagram: https://www.instagram.com/pozashumom/\n\nАрхів: MEDX-MAT-0002"
+    },
+    {
+      "id": "MEDX-TG-20260915-006",
+      "scheduled_at": "2026-09-15T10:00:00+03:00",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-054/062 — ГОТОВО ДО ПЕРЕГЛЯДУ ВЛАСНИКОМ / ПУБЛІКАЦІЮ НЕ ПОГОДЖЕНО",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
+      "parse_mode": "HTML",
+      "text": "<b>Instagram → Кравченко vs НАБУ</b>\n\n14 вересня Руслан Кравченко заявив, що підписав повідомлення про підозру директору НАБУ Семену Кривоносу. НАБУ і САП відповіли, що формально підозру Кривоносу не оголошено, і назвали заяву частиною системної атаки на антикорупційні органи.\n\nЦе позиції сторін; не встановлений судом факт.\n\n<b>ЩО ДАЛІ?</b>\nЧекаємо голосування та офіційного процесуального кроку.\n\nInstagram: https://www.instagram.com/pozashumom/\n\nАрхів: MEDX-MAT-0002"
+    },
+    {
+      "id": "MEDX-TG-20260915-007",
+      "scheduled_at": "2026-09-15T10:05:00+03:00",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-054/062 — ГОТОВО ДО ПЕРЕГЛЯДУ ВЛАСНИКОМ / ПУБЛІКАЦІЮ НЕ ПОГОДЖЕНО",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/53fba69a-a731-4835-8647-4b71c8ea4572.png",
+      "parse_mode": "HTML",
+      "text": "<b>Facebook → ПДВ 21,5% заради страхування бізнесу?</b>\n\nУрядовий концепт обговорює підвищення стандартного ПДВ на 1–1,5 п.п. для фінансування механізму підтримки/страхування бізнесу від воєнних ризиків. Рішення ще не ухвалене.\n\n<b>ГОЛОВНЕ ПИТАННЯ:</b>\nЧи виправдана вища ціна майже кожної покупки, якщо фонд реально зменшує ризик для бізнесу?\n\nFacebook: https://www.facebook.com/share/1KEzadqJP9/\n\nАрхів: MEDX-MAT-0003"
+    },
+    {
+      "id": "MEDX-TG-20260915-008",
+      "scheduled_at": "2026-09-15T10:10:00+03:00",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-054/062 — ГОТОВО ДО ПЕРЕГЛЯДУ ВЛАСНИКОМ / ПУБЛІКАЦІЮ НЕ ПОГОДЖЕНО",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/9e2aae14-386d-46c7-a70c-d0c2f8bcc75c.png",
+      "parse_mode": "HTML",
+      "text": "<b>Threads → безпека ШІ чи технологічна блокада?</b>\n\nAnthropic закликає пригальмувати розвиток найпотужніших систем і посилити експортні обмеження. Китайська державна Global Times називає такий підхід логікою «холодної війни», а МЗС Китаю публічно говорить про співпрацю замість конфронтації.\n\n<b>ДЕ МЕЖА?</b>\nSafety чи стратегія втримати технологічний lead?\n\nThreads: https://www.threads.com/@pozashumom\n\nАрхів: MEDX-MAT-0004"
+    },
+    {
+      "id": "MEDX-TG-20260915-009",
+      "scheduled_at": "2026-09-15T10:15:00+03:00",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-054/062 — ГОТОВО ДО ПЕРЕГЛЯДУ ВЛАСНИКОМ / ПУБЛІКАЦІЮ НЕ ПОГОДЖЕНО",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d9a30ce2-5603-47ab-963a-2ef966800f21.png",
+      "parse_mode": "HTML",
+      "text": "<b>TikTok → Ормуз: як барель доходить до твого чека</b>\n\nКоли головний нафтовий маршрут буксує, а запасний теж має проблеми, удар не закінчується на ціні бареля. Далі йдуть фрахт, паливо, авіація, пластик, добрива та інфляція.\n\n<b>У TELEGRAM:</b>\nТримаємо маршрутну карту, джерела й live updates.\n\nTikTok: https://www.tiktok.com/@pozashumommedia\n\nАрхів: MEDX-MAT-0005"
+    },
+    {
+      "id": "MEDX-TG-20260915-010",
+      "scheduled_at": "2026-09-15T16:00:00+03:00",
+      "status": "hold",
+      "hold_reason": "MEDX-DEC-054/061/062 — ВІДЕО МАЄ ГОЛОС, АЛЕ ФОНОВУ МУЗИКУ НЕ ВИЯВЛЕНО; ПОТРІБНЕ АУДІО-ДООПРАЦЮВАННЯ ТА ПЕРЕГЛЯД ВЛАСНИКА",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d578e7d0-85c3-436d-b317-c4f785d448f4.png",
+      "parse_mode": "HTML",
+      "text": "<b>YouTube Short → ШІ вже йде до оплати</b>\n\nШІ-агенти рухаються від пошуку товару до дії: Visa, Mastercard та інші вже будують механізми довіри й ідентифікації агентів для покупок.\n\nАле довіра відстає: головне питання — хто відповідає, коли агент натискає «Оплатити».\n\nYouTube: https://www.youtube.com/@pozashumommedia\n\nАрхів: MEDX-MAT-0007"
     }
   ],
   "manual_recovery_requested_at": "2026-09-14T21:43:00+03:00",
@@ -126,5 +187,16 @@
     "recovered_at": "2026-09-14T21:44:29+03:00",
     "recovery_message_id": 8,
     "recovery_commit": "9b75a70dd359c7f0dfeadd32aed0133518a11a05"
+  },
+  "queue_policy_update": {
+    "updated_at": "2026-09-14T23:02:00+03:00",
+    "decisions": [
+      "MEDX-DEC-058",
+      "MEDX-DEC-059",
+      "MEDX-DEC-060",
+      "MEDX-DEC-061",
+      "MEDX-DEC-062"
+    ],
+    "summary": "Одна платформна публікація = одна Telegram-пара з брендованою стартовою карткою. Усі пари 15.09 залишаються HOLD до явного погодження Власника."
   }
 }
