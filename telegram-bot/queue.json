@@ -172,7 +172,7 @@
       "id": "MEDX-TG-20260915-010",
       "scheduled_at": "2026-09-15T16:00:00+03:00",
       "status": "hold",
-      "hold_reason": "MEDX-DEC-054/061/062 — ВІДЕО МАЄ ГОЛОС, АЛЕ ФОНОВУ МУЗИКУ НЕ ВИЯВЛЕНО; ПОТРІБНЕ АУДІО-ДООПРАЦЮВАННЯ ТА ПЕРЕГЛЯД ВЛАСНИКА",
+      "hold_reason": "MEDX-DEC-054/062 — ГОТОВО ДО ПЕРЕГЛЯДУ ВЛАСНИКОМ / ПУБЛІКАЦІЮ НЕ ПОГОДЖЕНО. Аудіо rework виконано: voiceover збережено, тихий MEDX music bed + START/END v2 додано.",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d578e7d0-85c3-436d-b317-c4f785d448f4.png",
       "parse_mode": "HTML",
@@ -197,6 +197,11 @@
       "MEDX-DEC-061",
       "MEDX-DEC-062"
     ],
-    "summary": "Одна платформна публікація = одна Telegram-пара з брендованою стартовою карткою. Усі пари 15.09 залишаються HOLD до явного погодження Власника."
+    "summary": "Одна платформна публікація = одна Telegram-пара з брендованою стартовою карткою. Усі пари 15.09 залишаються HOLD до явного погодження Власника.",
+    "audio_rework": {
+      "updated_at": "2026-09-14T23:24:00+03:00",
+      "MAT0005": "owner-review master готовий; voiceover збережено; music bed + START/END v2",
+      "MAT0007": "owner-review master готовий; voiceover збережено; music bed + START/END v2"
+    }
   }
 }
