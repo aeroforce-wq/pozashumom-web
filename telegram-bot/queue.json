@@ -121,14 +121,16 @@
     {
       "id": "MEDX-TG-20260915-005",
       "scheduled_at": "2026-09-15T09:20:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
       "parse_mode": "HTML",
       "text": "<b>Instagram Stories → Операція «Карфаген» · Серія 2</b>\n\nРанковий Story-вхід у справу: Кравченко vs НАБУ. Це тизер до повного Instagram-пакета, не окрема нова «серія» без тригера.\n\n<b>ЩО ВІДСТЕЖУЄМО?</b>\nГолосування та офіційне процесуальне рішення.\n\nInstagram: https://www.instagram.com/pozashumom/\n\nАрхів: MEDX-MAT-0002",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
-      "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»"
+      "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
+      "published_at": "2026-09-15T06:23:46.423Z",
+      "telegram_message_id": 9
     },
     {
       "id": "MEDX-TG-20260915-006",
