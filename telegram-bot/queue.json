@@ -137,74 +137,89 @@
     {
       "id": "MEDX-TG-20260915-006",
       "scheduled_at": "2026-09-15T10:00:00+03:00",
-      "status": "hold",
+      "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
       "parse_mode": "HTML",
-      "text": "<b>Instagram → Кравченко vs НАБУ</b>\n\n14 вересня Руслан Кравченко заявив, що підписав повідомлення про підозру директору НАБУ Семену Кривоносу. НАБУ і САП відповіли, що формально підозру Кривоносу не оголошено, і назвали заяву частиною системної атаки на антикорупційні органи.\n\nЦе позиції сторін; не встановлений судом факт.\n\n<b>ЩО ДАЛІ?</b>\nЧекаємо голосування та офіційного процесуального кроку.\n\nInstagram: https://www.instagram.com/pozashumom/\n\nАрхів: MEDX-MAT-0002",
+      "text": "<b>Instagram → Кравченко vs НАБУ</b>\n\n14 вересня Руслан Кравченко заявив, що підписав повідомлення про підозру директору НАБУ Семену Кривоносу. НАБУ і САП відповіли, що формально підозру Кривоносу не оголошено, і назвали заяву частиною системної атаки на антикорупційні органи.\n\nЦе позиції сторін; не встановлений судом факт.\n\n<b>ЩО ДАЛІ?</b>\nЧекаємо голосування та офіційного процесуального кроку.\n\nInstagram: https://www.instagram.com/p/DdTIYYrivOF/\n\nАрхів: MEDX-MAT-0002",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
-      "hold_reason": "MEDX PLATFORM-FIRST HARD GATE: release only AFTER actual platform publication is confirmed live/readback PASS. Same-time scheduling is prohibited.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
+      "platform_public_url": "https://www.instagram.com/p/DdTIYYrivOF/",
+      "platform_scheduler_id": "376107920",
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
     },
     {
       "id": "MEDX-TG-20260915-007",
       "scheduled_at": "2026-09-15T10:05:00+03:00",
-      "status": "hold",
+      "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/53fba69a-a731-4835-8647-4b71c8ea4572.png",
       "parse_mode": "HTML",
-      "text": "<b>Facebook → ПДВ 21,5% заради страхування бізнесу?</b>\n\nУрядовий концепт обговорює підвищення стандартного ПДВ на 1–1,5 п.п. для фінансування механізму підтримки/страхування бізнесу від воєнних ризиків. Рішення ще не ухвалене.\n\n<b>ГОЛОВНЕ ПИТАННЯ:</b>\nЧи виправдана вища ціна майже кожної покупки, якщо фонд реально зменшує ризик для бізнесу?\n\nFacebook: https://www.facebook.com/share/1KEzadqJP9/\n\nАрхів: MEDX-MAT-0003",
+      "text": "<b>Facebook → ПДВ 21,5% заради страхування бізнесу?</b>\n\nУрядовий концепт обговорює підвищення стандартного ПДВ на 1–1,5 п.п. для фінансування механізму підтримки/страхування бізнесу від воєнних ризиків. Рішення ще не ухвалене.\n\n<b>ГОЛОВНЕ ПИТАННЯ:</b>\nЧи виправдана вища ціна майже кожної покупки, якщо фонд реально зменшує ризик для бізнесу?\n\nFacebook: https://facebook.com/122108750775464362/posts/122110179219464362\n\nАрхів: MEDX-MAT-0003",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
-      "hold_reason": "MEDX PLATFORM-FIRST HARD GATE: release only AFTER actual platform publication is confirmed live/readback PASS. Same-time scheduling is prohibited.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
+      "platform_public_url": "https://facebook.com/122108750775464362/posts/122110179219464362",
+      "platform_scheduler_id": "376107929",
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
     },
     {
       "id": "MEDX-TG-20260915-008",
       "scheduled_at": "2026-09-15T10:10:00+03:00",
-      "status": "hold",
+      "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/9e2aae14-386d-46c7-a70c-d0c2f8bcc75c.png",
       "parse_mode": "HTML",
-      "text": "<b>Threads → безпека ШІ чи технологічна блокада?</b>\n\nAnthropic закликає пригальмувати розвиток найпотужніших систем і посилити експортні обмеження. Китайська державна Global Times називає такий підхід логікою «холодної війни», а МЗС Китаю публічно говорить про співпрацю замість конфронтації.\n\n<b>ДЕ МЕЖА?</b>\nSafety чи стратегія втримати технологічний lead?\n\nThreads: https://www.threads.com/@pozashumom\n\nАрхів: MEDX-MAT-0004",
+      "text": "<b>Threads → безпека ШІ чи технологічна блокада?</b>\n\nAnthropic закликає пригальмувати розвиток найпотужніших систем і посилити експортні обмеження. Китайська державна Global Times називає такий підхід логікою «холодної війни», а МЗС Китаю публічно говорить про співпрацю замість конфронтації.\n\n<b>ДЕ МЕЖА?</b>\nSafety чи стратегія втримати технологічний lead?\n\nThreads: https://www.threads.com/@pozashumom/post/DdTJKPaCr7Q\n\nАрхів: MEDX-MAT-0004",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
-      "hold_reason": "MEDX PLATFORM-FIRST HARD GATE: release only AFTER actual platform publication is confirmed live/readback PASS. Same-time scheduling is prohibited.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
+      "platform_public_url": "https://www.threads.com/@pozashumom/post/DdTJKPaCr7Q",
+      "platform_scheduler_id": "376107935",
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
     },
     {
       "id": "MEDX-TG-20260915-009",
       "scheduled_at": "2026-09-15T10:15:00+03:00",
-      "status": "hold",
+      "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d9a30ce2-5603-47ab-963a-2ef966800f21.png",
       "parse_mode": "HTML",
-      "text": "<b>TikTok → Ормуз: як барель доходить до твого чека</b>\n\nКоли головний нафтовий маршрут буксує, а запасний теж має проблеми, удар не закінчується на ціні бареля. Далі йдуть фрахт, паливо, авіація, пластик, добрива та інфляція.\n\n<b>У TELEGRAM:</b>\nТримаємо маршрутну карту, джерела й live updates.\n\nTikTok: https://www.tiktok.com/@pozashumommedia\n\nАрхів: MEDX-MAT-0005",
+      "text": "<b>TikTok → Ормуз: як барель доходить до твого чека</b>\n\nКоли головний нафтовий маршрут буксує, а запасний теж має проблеми, удар не закінчується на ціні бареля. Далі йдуть фрахт, паливо, авіація, пластик, добрива та інфляція.\n\n<b>У TELEGRAM:</b>\nТримаємо маршрутну карту, джерела й live updates.\n\nTikTok: https://www.tiktok.com/@pozashumommedia/video/7685657240124116242\n\nАрхів: MEDX-MAT-0005",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
-      "hold_reason": "MEDX PLATFORM-FIRST HARD GATE: release only AFTER actual platform publication is confirmed live/readback PASS. Same-time scheduling is prohibited.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
+      "platform_public_url": "https://www.tiktok.com/@pozashumommedia/video/7685657240124116242",
+      "platform_scheduler_id": "376107945",
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
     },
     {
       "id": "MEDX-TG-20260915-010",
       "scheduled_at": "2026-09-15T10:20:00+03:00",
-      "status": "hold",
+      "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d578e7d0-85c3-436d-b317-c4f785d448f4.png",
       "parse_mode": "HTML",
-      "text": "<b>YouTube Short → ШІ вже йде до оплати</b>\n\nШІ-агенти рухаються від пошуку товару до дії: Visa, Mastercard та інші вже будують механізми довіри й ідентифікації агентів для покупок.\n\nАле довіра відстає: головне питання — хто відповідає, коли агент натискає «Оплатити».\n\nYouTube: https://www.youtube.com/@pozashumommedia\n\nАрхів: MEDX-MAT-0007",
+      "text": "<b>YouTube Short → ШІ вже йде до оплати</b>\n\nШІ-агенти рухаються від пошуку товару до дії: Visa, Mastercard та інші вже будують механізми довіри й ідентифікації агентів для покупок.\n\nАле довіра відстає: головне питання — хто відповідає, коли агент натискає «Оплатити».\n\nYouTube: https://www.youtube.com/shorts/pdloaMOWei4\n\nАрхів: MEDX-MAT-0007",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
       "rescheduled_from": "2026-09-15T16:00:00+03:00",
       "reschedule_reason": "CORRECTION: restore owner-approved morning window 09:20–10:20; 16:00 was an unauthorized assistant change.",
-      "hold_reason": "MEDX PLATFORM-FIRST HARD GATE: release only AFTER actual platform publication is confirmed live/readback PASS. Same-time scheduling is prohibited.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
+      "platform_public_url": "https://www.youtube.com/shorts/pdloaMOWei4",
+      "platform_scheduler_id": "376109640",
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
     },
     {
       "id": "MEDX-TG-20260915-011",
@@ -299,6 +314,17 @@
       "platform": "Instagram Story",
       "platform_live_confirmed_at": "2026-09-15T09:41:37+03:00",
       "telegram_release_after_pass": true
+    },
+    "last_batch_release": {
+      "verified_at": "2026-09-15T10:24:00+03:00",
+      "items": [
+        "MEDX-TG-20260915-006",
+        "MEDX-TG-20260915-007",
+        "MEDX-TG-20260915-008",
+        "MEDX-TG-20260915-009",
+        "MEDX-TG-20260915-010"
+      ],
+      "basis": "All five platform posts returned PUBLISHED + concrete publicUrl in Metricool readback"
     }
   }
 }
