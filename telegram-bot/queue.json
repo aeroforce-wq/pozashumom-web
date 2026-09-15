@@ -121,7 +121,7 @@
     {
       "id": "MEDX-TG-20260915-005",
       "scheduled_at": "2026-09-15T09:20:00+03:00",
-      "status": "delete_pending",
+      "status": "deleted",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
       "parse_mode": "HTML",
@@ -131,7 +131,8 @@
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
       "published_at": "2026-09-15T06:23:46.423Z",
       "telegram_message_id": 9,
-      "invalid_reason": "PLATFORM-FIRST VIOLATION: Telegram published before actual Instagram Story visibility was confirmed by Owner."
+      "invalid_reason": "PLATFORM-FIRST VIOLATION: Telegram published before actual Instagram Story visibility was confirmed by Owner.",
+      "deleted_at": "2026-09-15T06:36:56.573Z"
     },
     {
       "id": "MEDX-TG-20260915-006",
@@ -264,9 +265,10 @@
       "request_id": "MEDX-TG-DEL-20260915-001",
       "message_id": 9,
       "chat_id": "@pozashumommedia",
-      "status": "pending",
+      "status": "deleted",
       "reason": "Remove premature Telegram post; Instagram Story was not confirmed live before Telegram publication.",
-      "requested_at": "2026-09-15T09:35:30+03:00"
+      "requested_at": "2026-09-15T09:35:30+03:00",
+      "deleted_at": "2026-09-15T06:36:56.573Z"
     }
   ],
   "platform_first_policy": {
