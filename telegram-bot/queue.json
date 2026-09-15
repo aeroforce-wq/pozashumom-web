@@ -205,6 +205,20 @@
       "reschedule_reason": "CORRECTION: restore owner-approved morning window 09:20–10:20; 16:00 was an unauthorized assistant change.",
       "hold_reason": "MEDX PLATFORM-FIRST HARD GATE: release only AFTER actual platform publication is confirmed live/readback PASS. Same-time scheduling is prohibited.",
       "platform_first_required": true
+    },
+    {
+      "id": "MEDX-TG-20260915-011",
+      "scheduled_at": "2026-09-15T09:41:00+03:00",
+      "status": "pending",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
+      "parse_mode": "HTML",
+      "text": "<b>Instagram Stories → Операція «Карфаген» · Серія 2</b>\n\nStory уже в Instagram. Ранковий вхід у справу: Кравченко vs НАБУ.\n\n<b>ЩО ВІДСТЕЖУЄМО?</b>\nГолосування та офіційне процесуальне рішення.\n\n<a href=\"https://www.instagram.com/stories/pozashumom/3986554960011577304\">Відкрити Story в Instagram</a>\n\nАрхів: MEDX-MAT-0002",
+      "approved_by": "Олександр / Власник",
+      "platform_first_verified_at": "2026-09-15T09:41:37+03:00",
+      "platform_public_url": "https://www.instagram.com/stories/pozashumom/3986554960011577304",
+      "platform_scheduler_id": "376112157",
+      "release_basis": "MEDX-DEC-065: actual Instagram public URL confirmed before Telegram release"
     }
   ],
   "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
@@ -277,6 +291,12 @@
     "telegram_default_status": "hold",
     "release_condition": "ACTUAL_PLATFORM_VISIBILITY_PASS",
     "prohibited": "same-time Telegram scheduling based only on planned time or Metricool status",
-    "basis": "Owner correction in MEDX-CH-0005"
+    "basis": "Owner correction in MEDX-CH-0005",
+    "last_release": {
+      "item": "MEDX-TG-20260915-011",
+      "platform": "Instagram Story",
+      "platform_live_confirmed_at": "2026-09-15T09:41:37+03:00",
+      "telegram_release_after_pass": true
+    }
   }
 }
