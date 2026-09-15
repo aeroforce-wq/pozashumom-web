@@ -191,8 +191,8 @@
       "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»"
     }
   ],
-  "manual_recovery_requested_at": "2026-09-14T21:43:00+03:00",
-  "manual_recovery_reason": "No scheduled GitHub Actions runs after 16:40 Europe/Kyiv; publish overdue Telegram-unique oil update and block duplicate Carthage item.",
+  "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
+  "manual_recovery_reason": "09:20 Story is PUBLISHED in Metricool; paired Telegram item MEDX-TG-20260915-005 remained pending after due time. Trigger publisher via queue touch, no duplicate.",
   "telegram_recovery": {
     "status": "recovered",
     "root_cause": "GitHub Actions cron stopped producing scheduled runs after 16:40 Europe/Kyiv; publisher was not invoked",
