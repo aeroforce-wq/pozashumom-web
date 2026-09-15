@@ -59,6 +59,30 @@ async function telegram(method, payload) {
 
 let changed = false;
 
+if (Array.isArray(data.delete_requests)) {
+  for (const request of data.delete_requests) {
+    if (request.status !== 'pending') continue;
+
+    const result = await telegram('deleteMessage', {
+      chat_id: request.chat_id || data.channel,
+      message_id: request.message_id
+    });
+
+    request.status = result ? 'deleted' : 'failed';
+    request.deleted_at = result ? new Date().toISOString() : null;
+    changed = true;
+
+    const linked = data.items.find(item => item.telegram_message_id === request.message_id);
+    if (linked && result) {
+      linked.status = 'deleted';
+      linked.deleted_at = request.deleted_at;
+    }
+
+    console.log(`Deleted Telegram message ${request.message_id}`);
+  }
+}
+
+
 for (const item of data.items) {
   if (item.status !== 'pending') continue;
   if (!item.scheduled_at) continue;
