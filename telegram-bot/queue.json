@@ -137,7 +137,7 @@
     {
       "id": "MEDX-TG-20260915-006",
       "scheduled_at": "2026-09-15T10:00:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
       "parse_mode": "HTML",
@@ -149,12 +149,14 @@
       "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
       "platform_public_url": "https://www.instagram.com/p/DdTIYYrivOF/",
       "platform_scheduler_id": "376107920",
-      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release",
+      "published_at": "2026-09-15T07:24:45.616Z",
+      "telegram_message_id": 11
     },
     {
       "id": "MEDX-TG-20260915-007",
       "scheduled_at": "2026-09-15T10:05:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/53fba69a-a731-4835-8647-4b71c8ea4572.png",
       "parse_mode": "HTML",
@@ -166,12 +168,14 @@
       "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
       "platform_public_url": "https://facebook.com/122108750775464362/posts/122110179219464362",
       "platform_scheduler_id": "376107929",
-      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release",
+      "published_at": "2026-09-15T07:24:46.874Z",
+      "telegram_message_id": 12
     },
     {
       "id": "MEDX-TG-20260915-008",
       "scheduled_at": "2026-09-15T10:10:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/9e2aae14-386d-46c7-a70c-d0c2f8bcc75c.png",
       "parse_mode": "HTML",
@@ -183,12 +187,14 @@
       "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
       "platform_public_url": "https://www.threads.com/@pozashumom/post/DdTJKPaCr7Q",
       "platform_scheduler_id": "376107935",
-      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release",
+      "published_at": "2026-09-15T07:24:47.592Z",
+      "telegram_message_id": 13
     },
     {
       "id": "MEDX-TG-20260915-009",
       "scheduled_at": "2026-09-15T10:15:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d9a30ce2-5603-47ab-963a-2ef966800f21.png",
       "parse_mode": "HTML",
@@ -200,12 +206,14 @@
       "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
       "platform_public_url": "https://www.tiktok.com/@pozashumommedia/video/7685657240124116242",
       "platform_scheduler_id": "376107945",
-      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release",
+      "published_at": "2026-09-15T07:24:48.150Z",
+      "telegram_message_id": 14
     },
     {
       "id": "MEDX-TG-20260915-010",
       "scheduled_at": "2026-09-15T10:20:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d578e7d0-85c3-436d-b317-c4f785d448f4.png",
       "parse_mode": "HTML",
@@ -219,7 +227,9 @@
       "platform_first_verified_at": "2026-09-15T10:24:00+03:00",
       "platform_public_url": "https://www.youtube.com/shorts/pdloaMOWei4",
       "platform_scheduler_id": "376109640",
-      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release"
+      "release_basis": "MEDX-DEC-065: platform PUBLISHED with concrete publicUrl confirmed before Telegram release",
+      "published_at": "2026-09-15T07:24:48.655Z",
+      "telegram_message_id": 15
     },
     {
       "id": "MEDX-TG-20260915-011",
