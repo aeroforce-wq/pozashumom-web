@@ -182,7 +182,7 @@
     },
     {
       "id": "MEDX-TG-20260915-010",
-      "scheduled_at": "2026-09-15T16:00:00+03:00",
+      "scheduled_at": "2026-09-15T10:20:00+03:00",
       "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/d578e7d0-85c3-436d-b317-c4f785d448f4.png",
@@ -190,7 +190,9 @@
       "text": "<b>YouTube Short → ШІ вже йде до оплати</b>\n\nШІ-агенти рухаються від пошуку товару до дії: Visa, Mastercard та інші вже будують механізми довіри й ідентифікації агентів для покупок.\n\nАле довіра відстає: головне питання — хто відповідає, коли агент натискає «Оплатити».\n\nYouTube: https://www.youtube.com/@pozashumommedia\n\nАрхів: MEDX-MAT-0007",
       "approved_by": "Олександр / Власник",
       "approved_at": "2026-09-14T23:38:12+03:00",
-      "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»"
+      "activation_basis": "Пряме погодження у MEDX-CH-0005: «погоджено, запускай чергу»",
+      "rescheduled_from": "2026-09-15T16:00:00+03:00",
+      "reschedule_reason": "CORRECTION: restore owner-approved morning window 09:20–10:20; 16:00 was an unauthorized assistant change."
     }
   ],
   "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
@@ -237,5 +239,13 @@
       "MEDX-DEC-061",
       "MEDX-DEC-062"
     ]
+  },
+  "schedule_correction": {
+    "corrected_at": "2026-09-15T09:28:30+03:00",
+    "corrected_by": "Луїс",
+    "basis": "Owner objection in MEDX-CH-0005; restore approved morning window",
+    "item": "MEDX-TG-20260915-010",
+    "from": "16:00",
+    "to": "10:20"
   }
 }
