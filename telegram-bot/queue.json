@@ -209,7 +209,7 @@
     {
       "id": "MEDX-TG-20260915-011",
       "scheduled_at": "2026-09-15T09:41:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/1c9fec37-a354-47ce-a324-b5aa8290326b.png",
       "parse_mode": "HTML",
@@ -218,7 +218,9 @@
       "platform_first_verified_at": "2026-09-15T09:41:37+03:00",
       "platform_public_url": "https://www.instagram.com/stories/pozashumom/3986554960011577304",
       "platform_scheduler_id": "376112157",
-      "release_basis": "MEDX-DEC-065: actual Instagram public URL confirmed before Telegram release"
+      "release_basis": "MEDX-DEC-065: actual Instagram public URL confirmed before Telegram release",
+      "published_at": "2026-09-15T06:42:09.317Z",
+      "telegram_message_id": 10
     }
   ],
   "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
