@@ -304,7 +304,7 @@
     {
       "id": "MEDX-TG-20260916-014-CARD",
       "scheduled_at": "2026-09-16T16:45:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/41b92191-be04-4dd8-abe1-da25e7588dcd.png",
       "parse_mode": "HTML",
@@ -315,12 +315,14 @@
       "platform_first_verified_at": "2026-09-16T16:11:00+03:00",
       "platform_public_url": "https://www.threads.com/@pozashumom/post/DdWPYodiLjR",
       "platform_scheduler_id": "376739343",
-      "release_basis": "Threads PUBLISHED + concrete publicUrl PASS."
+      "release_basis": "Threads PUBLISHED + concrete publicUrl PASS.",
+      "published_at": "2026-09-16T14:03:56.840Z",
+      "telegram_message_id": 19
     },
     {
       "id": "MEDX-TG-20260916-014-LONG",
       "scheduled_at": "2026-09-16T16:46:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -331,7 +333,9 @@
       "platform_first_verified_at": "2026-09-16T16:11:00+03:00",
       "platform_public_url": "https://www.threads.com/@pozashumom/post/DdWPYodiLjR",
       "platform_scheduler_id": "376739343",
-      "release_basis": "Threads PUBLISHED + concrete publicUrl PASS."
+      "release_basis": "Threads PUBLISHED + concrete publicUrl PASS.",
+      "published_at": "2026-09-16T14:03:57.459Z",
+      "telegram_message_id": 20
     },
     {
       "id": "MEDX-TG-20260916-015-CARD",
