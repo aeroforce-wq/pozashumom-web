@@ -340,7 +340,7 @@
     {
       "id": "MEDX-TG-20260916-015-CARD",
       "scheduled_at": "2026-09-16T17:15:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/2647021f-86cd-49fe-bcdc-60b7ee8b142f.png",
       "parse_mode": "HTML",
@@ -351,12 +351,14 @@
       "platform_first_verified_at": "2026-09-16T16:11:00+03:00",
       "platform_public_url": "https://www.youtube.com/watch?v=me11KdQK8VE",
       "platform_scheduler_id": "376578531",
-      "release_basis": "YouTube video has concrete publicUrl; Metricool warning concerns thumbnail upload, not video publication."
+      "release_basis": "YouTube video has concrete publicUrl; Metricool warning concerns thumbnail upload, not video publication.",
+      "published_at": "2026-09-16T14:18:31.311Z",
+      "telegram_message_id": 21
     },
     {
       "id": "MEDX-TG-20260916-015-LONG",
       "scheduled_at": "2026-09-16T17:16:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -367,7 +369,9 @@
       "platform_first_verified_at": "2026-09-16T16:11:00+03:00",
       "platform_public_url": "https://www.youtube.com/watch?v=me11KdQK8VE",
       "platform_scheduler_id": "376578531",
-      "release_basis": "YouTube video has concrete publicUrl; Metricool warning concerns thumbnail upload, not video publication."
+      "release_basis": "YouTube video has concrete publicUrl; Metricool warning concerns thumbnail upload, not video publication.",
+      "published_at": "2026-09-16T14:18:31.954Z",
+      "telegram_message_id": 22
     },
     {
       "id": "MEDX-TG-20260916-016-CARD",
