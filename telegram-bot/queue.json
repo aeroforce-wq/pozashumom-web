@@ -268,7 +268,7 @@
     {
       "id": "MEDX-TG-20260916-013-CARD",
       "scheduled_at": "2026-09-16T16:15:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/157d0c88-7873-4917-8501-9a6903b01da4.png",
       "parse_mode": "HTML",
@@ -279,12 +279,14 @@
       "platform_first_verified_at": "2026-09-16T14:46:00+03:00",
       "platform_public_url": "https://facebook.com/122108750775464362/posts/122110697709464362",
       "platform_scheduler_id": "376739318",
-      "release_basis": "Facebook PUBLISHED + concrete publicUrl PASS."
+      "release_basis": "Facebook PUBLISHED + concrete publicUrl PASS.",
+      "published_at": "2026-09-16T13:16:54.012Z",
+      "telegram_message_id": 17
     },
     {
       "id": "MEDX-TG-20260916-013-LONG",
       "scheduled_at": "2026-09-16T16:16:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -295,7 +297,9 @@
       "platform_first_verified_at": "2026-09-16T14:46:00+03:00",
       "platform_public_url": "https://facebook.com/122108750775464362/posts/122110697709464362",
       "platform_scheduler_id": "376739318",
-      "release_basis": "Facebook PUBLISHED + concrete publicUrl PASS."
+      "release_basis": "Facebook PUBLISHED + concrete publicUrl PASS.",
+      "published_at": "2026-09-16T13:16:54.497Z",
+      "telegram_message_id": 18
     },
     {
       "id": "MEDX-TG-20260916-014-CARD",
