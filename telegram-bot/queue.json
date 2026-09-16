@@ -376,28 +376,34 @@
     {
       "id": "MEDX-TG-20260916-016-CARD",
       "scheduled_at": "2026-09-16T18:25:00+03:00",
-      "status": "hold",
-      "hold_reason": "Await TikTok actual PUBLISHED + concrete publicUrl PASS.",
+      "status": "pending",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/26c0b070-bd94-4810-9cdb-804053f80963.png",
       "parse_mode": "HTML",
       "text": "<b>КОЛИ ШІ ОТРИМУЄ ПРАВО НАТИСНУТИ «ОПЛАТИТИ»</b>\n\nПитання вже не в тому, чи AI може знайти товар. Питання — за яких правил ми дозволимо йому провести реальну транзакцію.\n\nПісля TikTok нижче піде великий розбір: ліміти, дозволи, Visa/OpenAI, Україна і де проходить межа між агентом та доступом до ваших грошей.",
       "approved_by": "Олександр / Власник",
       "activation_basis": "Owner approval 16.09.2026: Telegram long-form/investigative rebuild; replace short queue items, not append duplicates.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_public_url": "https://www.tiktok.com/@pozashumommedia/video/7686149096008322325",
+      "platform_first_verified_at": "2026-09-16T19:27:00+03:00",
+      "platform_scheduler_id": "376563316",
+      "release_basis": "TikTok PUBLISHED + concrete publicUrl PASS; manual recovery after automated HOLD release failed."
     },
     {
       "id": "MEDX-TG-20260916-016-LONG",
       "scheduled_at": "2026-09-16T18:26:00+03:00",
-      "status": "hold",
-      "hold_reason": "Await TikTok actual PUBLISHED + concrete publicUrl PASS.",
+      "status": "pending",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
       "text": "<b>ШІ ВЖЕ РУХАЄТЬСЯ ВІД «ПОРАДИТИ» ДО «КУПИТИ». АЛЕ ХТО ДАЄ ЙОМУ ДОЗВІЛ?</b>\n\nAgentic commerce — це модель, у якій AI-агент не просто показує варіанти, а може виконувати частину дій за користувача: шукати, порівнювати, перевіряти умови і в певних сценаріях ініціювати покупку.\n\nСаме тут починається головна проблема — не інтелект, а <b>довіра до транзакції</b>.\n\nУ Visa Trust Index від 9 вересня лише 23% опитаних у США сказали, що готові довірити генеративному ШІ проведення платежу від їхнього імені.\n\nАле коли в сценарії з’являється платіжна інфраструктура Visa, готовність довіряти агентській транзакції, за даними того самого дослідження, піднімається до 61%.\n\nЦя різниця дуже показова.\n\nЛюди бояться не самого AI. Вони бояться ситуації, де AI:\n— вибрав не той товар;\n— купив у не того продавця;\n— перевищив бюджет;\n— погодився на погані умови;\n— провів транзакцію без зрозумілої відповідальності.\n\n<b>Тому майбутня модель — це не «ось моя картка, роби що хочеш».</b>\n\nНормальна архітектура агентської покупки будується навколо дозволів.\n\nНаприклад:\n«Знайди квиток Київ–Варшава до 5 000 грн.\nБез пересадки довше 3 годин.\nБагаж включений.\nНе купуй, якщо повернення неможливе».\n\nАбо:\n«Купуй продукти раз на тиждень.\nЛіміт — 2 000 грн.\nАлкоголь — ні.\nНові продавці — тільки після підтвердження».\n\nТобто AI отримує не «доступ до грошей», а <b>мандат із межами</b>.\n\n<b>Що вже будується:</b>\n— Visa працює з OpenAI над агентськими платежами;\n— платіжні мережі створюють механізми ідентифікації AI-агентів;\n— користувач має задавати ліміти, категорії, правила та підтвердження;\n— в Україні серед ранніх партнерів Visa Agentic Ready названі monobank і ПриватБанк.\n\n<b>Найскладніше питання — відповідальність.</b>\n\nЯкщо агент купив неправильний квиток — хто винен?\nКористувач, який дав нечітку команду?\nAI-сервіс?\nБанк?\nПлатіжна мережа?\nМагазин?\n\nСаме тому контроль транзакції може бути важливішим, ніж ще +20% «розумності» моделі.\n\n<b>Три речі, які мають бути обов’язковими:</b>\n1. Ліміт — скільки агент узагалі може витратити.\n2. Scope — на що саме він має право витрачати.\n3. Confirmation rule — коли потрібне фінальне підтвердження людини.\n\nІ тепер практичне питання:\n<b>який ліміт ви реально дали б AI-агенту сьогодні — 500 грн, 5 000 грн чи 0?</b>\n\nДжерела: Visa Trust Index, 09.09.2026; Visa + OpenAI; Visa Agentic Ready Ukraine.\n\nПоза Шумом. Майбутнє платежів — це не «AI з карткою». Це AI з правилами.",
       "approved_by": "Олександр / Власник",
       "activation_basis": "Owner approval 16.09.2026: Telegram long-form/investigative rebuild; replace short queue items, not append duplicates.",
-      "platform_first_required": true
+      "platform_first_required": true,
+      "platform_public_url": "https://www.tiktok.com/@pozashumommedia/video/7686149096008322325",
+      "platform_first_verified_at": "2026-09-16T19:27:00+03:00",
+      "platform_scheduler_id": "376563316",
+      "release_basis": "TikTok PUBLISHED + concrete publicUrl PASS; manual recovery after automated HOLD release failed."
     }
   ],
   "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
@@ -518,5 +524,14 @@
       "016-CARD/016-LONG"
     ],
     "last_manual_trigger": "2026-09-16T16:16:15+03:00"
+  },
+  "telegram_recovery_20260916_last": {
+    "recovered_at": "2026-09-16T19:27:00+03:00",
+    "items": [
+      "MEDX-TG-20260916-016-CARD",
+      "MEDX-TG-20260916-016-LONG"
+    ],
+    "cause": "TikTok was PUBLISHED with publicUrl, but automated release left both Telegram items in HOLD.",
+    "action": "Manual HOLD→PENDING release; queue touch to invoke publisher."
   }
 }
