@@ -1,0 +1,3 @@
+MEDX Telegram Guard recovery trigger.
+Reason: due pending queue items MEDX-TG-20260916-014-CARD and MEDX-TG-20260916-014-LONG remained pending after 16:45/16:46 Europe/Kyiv; no publisher run observed after the successful 16:16 pair.
+Safe trigger only; no queue content/status modified.
