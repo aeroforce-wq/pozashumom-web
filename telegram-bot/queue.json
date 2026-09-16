@@ -250,7 +250,7 @@
     {
       "id": "MEDX-TG-20260916-012",
       "scheduled_at": "2026-09-16T14:50:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/fad7cd30-7008-4aee-a5cb-90b3d87c1c74.png",
       "parse_mode": "HTML",
@@ -261,7 +261,9 @@
       "platform_first_verified_at": "2026-09-16T14:46:00+03:00",
       "platform_public_url": "https://www.instagram.com/p/DdVtKNWCFdu/",
       "platform_scheduler_id": "376517695",
-      "release_basis": "Platform PUBLISHED + concrete publicUrl PASS; recovery slot after missed Telegram release."
+      "release_basis": "Platform PUBLISHED + concrete publicUrl PASS; recovery slot after missed Telegram release.",
+      "published_at": "2026-09-16T11:54:32.817Z",
+      "telegram_message_id": 16
     },
     {
       "id": "MEDX-TG-20260916-013",
