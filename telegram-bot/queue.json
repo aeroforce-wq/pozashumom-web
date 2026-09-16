@@ -246,6 +246,77 @@
       "release_basis": "MEDX-DEC-065: actual Instagram public URL confirmed before Telegram release",
       "published_at": "2026-09-15T06:42:09.317Z",
       "telegram_message_id": 10
+    },
+    {
+      "id": "MEDX-TG-20260916-012",
+      "scheduled_at": "2026-09-16T14:50:00+03:00",
+      "status": "pending",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/fad7cd30-7008-4aee-a5cb-90b3d87c1c74.png",
+      "parse_mode": "HTML",
+      "text": "<b>Тобі може писати не людина — і проблема вже давно не у фейковій аватарці.</b>\n\nAnthropic описала мережу з понад 20 dating apps, де працювали понад 4 700 AI-персон. За два тижні вони вступили в діалог щонайменше з 25 000 унікальних людей і згенерували близько 2,36 млн повідомлень.\n\nНайцікавіше — система не була повністю автоматичною. Коли співрозмовник просив відеодзвінок або хотів перевірити людину через соцмережі, до процесу могли підключатися реальні gig workers. AI створював масштаб, а люди закривали моменти, де потрібен був «доказ реальності».\n\nAnthropic також описує приблизне співвідношення 3:1 між AI-персонами та реальними людьми у swipe-feed.\n\nВажливо: 25 000 — це не підтверджені фінансові жертви, а кількість унікальних людей, які взаємодіяли з мережею.\n\n<b>Що може насторожити:</b>\n— профіль занадто швидко створює емоційну близькість;\n— відповіді стабільно «ідеальні», але ухиляються від конкретних перевірок;\n— відео/соцмережі з’являються лише після наполегливих прохань;\n— історія людини має дрібні суперечності між різними каналами.\n\n<a href=\"https://www.instagram.com/p/DdVtKNWCFdu/\">Instagram</a>\nДжерело: Anthropic Threat Intelligence, September 2026.",
+      "approved_by": "Олександр / Власник",
+      "activation_basis": "Owner recovery directive 16.09.2026: queue missed Telegram publications and split by open windows.",
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-16T14:46:00+03:00",
+      "platform_public_url": "https://www.instagram.com/p/DdVtKNWCFdu/",
+      "platform_scheduler_id": "376517695",
+      "release_basis": "Platform PUBLISHED + concrete publicUrl PASS; recovery slot after missed Telegram release."
+    },
+    {
+      "id": "MEDX-TG-20260916-013",
+      "scheduled_at": "2026-09-16T15:25:00+03:00",
+      "status": "pending",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/157d0c88-7873-4917-8501-9a6903b01da4.png",
+      "parse_mode": "HTML",
+      "text": "<b>«Дистанційний обшук» на 3,2 млн грн: як страх перетворили на передачу готівки.</b>\n\nЗа даними Нацполіції, чоловіку зателефонував невідомий, який представився працівником СБУ. Легенда: нібито потерпілий оплачував товар на території РФ, тому тепер треба пройти «дистанційний обшук» і перевірку походження коштів.\n\nУ результаті чоловік передав 69 950 доларів і 2 410 євро. Поліція повідомляє, що готівку забрала 34-річна жінка-кур’єр на вул. Сумській у Харкові; частину коштів надалі перевели в криптовалюту. Загальна заявлена шкода — понад 3 234 000 грн.\n\nЖінці повідомлено про підозру. Це не вирок: розслідування триває, інших причетних встановлюють.\n\n<b>Чому подібні схеми працюють:</b>\n1. Авторитет — «ми з правоохоронного органу».\n2. Страх — «ви вже під підозрою».\n3. Ізоляція — «нікому не кажіть».\n4. Терміновість — «зробіть зараз».\n5. Незворотний крок — передача готівки/криптоактиву.\n\nБазове правило: завершіть дзвінок і самостійно зв’яжіться з установою за офіційним номером.\n\n<a href=\"https://facebook.com/122108750775464362/posts/122110697709464362\">Facebook</a>\nДжерело: Національна поліція України, 14.09.2026.",
+      "approved_by": "Олександр / Власник",
+      "activation_basis": "Owner recovery directive 16.09.2026.",
+      "platform_first_required": true,
+      "platform_first_verified_at": "2026-09-16T14:46:00+03:00",
+      "platform_public_url": "https://facebook.com/122108750775464362/posts/122110697709464362",
+      "platform_scheduler_id": "376739318",
+      "release_basis": "Platform PUBLISHED + concrete publicUrl PASS; recovery slot after missed Telegram release."
+    },
+    {
+      "id": "MEDX-TG-20260916-014",
+      "scheduled_at": "2026-09-16T15:50:00+03:00",
+      "status": "hold",
+      "hold_reason": "Await Threads actual PUBLISHED + publicUrl PASS.",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/41b92191-be04-4dd8-abe1-da25e7588dcd.png",
+      "parse_mode": "HTML",
+      "text": "<b>Amazon, рекламний аукціон і «вигаданий учасник»: що саме стверджує FTC.</b>\n\nFTC разом із 22 штатами подала позов проти Amazon. Це поки звинувачення в цивільній справі, а не встановлений судом факт.\n\nРегулятор стверджує, що Amazon роками описував рекламні аукціони як generalized second-price: переможець не платить всю свою ставку, а приблизно мінімальну суму, потрібну для перемоги.\n\nЗа версією FTC, з 2019 року Amazon додав прихований «soft reserve price» — фактично surcharge поверх ціни, яку сформував би звичайний аукціон. В одному з процитованих внутрішніх документів фігурує «invented auction participant».\n\nFTC заявляє, що це зачепило понад 1 млн брендів і продавців, включно з більш ніж 500 тис. малих і середніх бізнесів.\n\nAmazon заперечує ці висновки. Компанія називає позов misguided і каже, що середній CPC у 2019–2024 роках залишався стабільним з поправкою на інфляцію, а conversion rate зріс на 24% у 2021–2025.\n\nТобто зараз є дві протилежні версії — і їх має оцінити суд.\n\nДжерела: FTC complaint, 31.08.2026; official Amazon response.",
+      "approved_by": "Олександр / Власник",
+      "activation_basis": "Owner recovery directive 16.09.2026.",
+      "platform_first_required": true
+    },
+    {
+      "id": "MEDX-TG-20260916-015",
+      "scheduled_at": "2026-09-16T16:25:00+03:00",
+      "status": "hold",
+      "hold_reason": "Await YouTube actual PUBLISHED + publicUrl PASS.",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/2647021f-86cd-49fe-bcdc-60b7ee8b142f.png",
+      "parse_mode": "HTML",
+      "text": "<b>Твоя наступна мобільна «вежа» може летіти над тобою на орбіті.</b>\n\nStarlink повідомляє, що перше покоління Direct to Cell уже налічує понад 650 супутників, а до сервісу хоча б раз підключалися понад 12 млн людей у світі.\n\nУкраїна — один із найцікавіших реальних кейсів. Kyivstar вказує понад 6 млн абонентів, які скористалися можливістю не втратити зв’язок, і понад 9 млн SMS через супутникову мережу. Наступний етап — Light Data: Viber, WhatsApp і Google Maps там, де немає наземного покриття.\n\n<b>Як це працює:</b>\nсмартфон → супутник Direct to Cell → мережа мобільного оператора.\n\nОкрема Starlink-тарілка не потрібна. Але це не «кінець мобільних веж»: технологія доповнює наземну мережу.\n\nДе це має найбільший сенс:\n— віддалені райони;\n— блекаути;\n— прифронтові території;\n— надзвичайні ситуації;\n— місця, де наземна мережа тимчасово недоступна.\n\nДжерела: Starlink Progress Report; Kyivstar Direct to Cell; НКЕК.",
+      "approved_by": "Олександр / Власник",
+      "activation_basis": "Owner recovery directive 16.09.2026.",
+      "platform_first_required": true
+    },
+    {
+      "id": "MEDX-TG-20260916-016",
+      "scheduled_at": "2026-09-16T18:25:00+03:00",
+      "status": "hold",
+      "hold_reason": "Await TikTok actual PUBLISHED + publicUrl PASS.",
+      "type": "photo",
+      "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/26c0b070-bd94-4810-9cdb-804053f80963.png",
+      "parse_mode": "HTML",
+      "text": "<b>ШІ переходить від «порадити» до «заплатити». Але головна проблема — довіра.</b>\n\nУ Visa Trust Index від 9 вересня лише 23% опитаних у США сказали, що готові довірити генеративному ШІ проведення платежу від їхнього імені. Водночас 61% готові довіряти агентській транзакції, якщо її обробляє Visa.\n\nЧому це вже не футурологія:\n— Visa працює з OpenAI над агентськими платежами;\n— користувач може задавати правила: ліміти, категорії продавців, підтвердження;\n— в Україні серед ранніх партнерів Agentic Ready названі monobank і ПриватБанк.\n\nПрактичний сценарій:\n«Знайди квиток до 5 000 грн. Перевір умови. Якщо все підходить — купи».\n\nКлючове слово — не «автономність», а «дозвіл». Агент не має отримувати безмежний доступ до грошей: модель будується навколо заданих правил і контролю транзакції.\n\nЯкий ліміт ви дали б AI-агенту — 500 грн, 5 000 чи 0?\n\nДжерела: Visa Trust Index, 09.09.2026; Visa + OpenAI; Visa Agentic Ready Ukraine.",
+      "approved_by": "Олександр / Власник",
+      "activation_basis": "Owner recovery directive 16.09.2026.",
+      "platform_first_required": true
     }
   ],
   "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
@@ -335,6 +406,18 @@
         "MEDX-TG-20260915-010"
       ],
       "basis": "All five platform posts returned PUBLISHED + concrete publicUrl in Metricool readback"
+    }
+  },
+  "telegram_recovery_20260916": {
+    "activated_at": "2026-09-16T14:46:00+03:00",
+    "activated_by": "Олександр / Власник",
+    "reason": "Missed Telegram downstream 012–016; recovery split into open windows, no batch burst.",
+    "schedule": {
+      "012": "14:50 pending after Instagram PASS",
+      "013": "15:25 pending after Facebook PASS",
+      "014": "15:50 HOLD until Threads PASS",
+      "015": "16:25 HOLD until YouTube PASS",
+      "016": "18:25 HOLD until TikTok PASS"
     }
   }
 }
