@@ -376,7 +376,7 @@
     {
       "id": "MEDX-TG-20260916-016-CARD",
       "scheduled_at": "2026-09-16T18:25:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "photo",
       "media_url": "https://cdn.creativeclaw.co/u/09e8bdf2/images/26c0b070-bd94-4810-9cdb-804053f80963.png",
       "parse_mode": "HTML",
@@ -387,12 +387,14 @@
       "platform_public_url": "https://www.tiktok.com/@pozashumommedia/video/7686149096008322325",
       "platform_first_verified_at": "2026-09-16T19:27:00+03:00",
       "platform_scheduler_id": "376563316",
-      "release_basis": "TikTok PUBLISHED + concrete publicUrl PASS; manual recovery after automated HOLD release failed."
+      "release_basis": "TikTok PUBLISHED + concrete publicUrl PASS; manual recovery after automated HOLD release failed.",
+      "published_at": "2026-09-16T16:28:01.938Z",
+      "telegram_message_id": 23
     },
     {
       "id": "MEDX-TG-20260916-016-LONG",
       "scheduled_at": "2026-09-16T18:26:00+03:00",
-      "status": "pending",
+      "status": "published",
       "type": "text",
       "parse_mode": "HTML",
       "disable_web_page_preview": true,
@@ -403,7 +405,9 @@
       "platform_public_url": "https://www.tiktok.com/@pozashumommedia/video/7686149096008322325",
       "platform_first_verified_at": "2026-09-16T19:27:00+03:00",
       "platform_scheduler_id": "376563316",
-      "release_basis": "TikTok PUBLISHED + concrete publicUrl PASS; manual recovery after automated HOLD release failed."
+      "release_basis": "TikTok PUBLISHED + concrete publicUrl PASS; manual recovery after automated HOLD release failed.",
+      "published_at": "2026-09-16T16:28:02.362Z",
+      "telegram_message_id": 24
     }
   ],
   "manual_recovery_requested_at": "2026-09-15T09:22:00+03:00",
